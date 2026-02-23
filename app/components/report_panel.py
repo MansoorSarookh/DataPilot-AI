@@ -130,9 +130,25 @@ def render_report_panel(df: pd.DataFrame, trust_score: dict, file_name: str = "d
     with tab3:
         st.markdown("**Download your data in multiple formats.**")
 
-        export_df = st.session_state.get("cleaned_df", df)
-        label = "Cleaned Dataset" if "cleaned_df" in st.session_state else "Original Dataset"
-        st.info(f"Exporting: **{label}** ({export_df.shape[0]:,} rows × {export_df.shape[1]} columns)")
+        # export_df = st.session_state.get("cleaned_df", df)
+        
+        # label = "Cleaned Dataset" if "cleaned_df" in st.session_state else "Original Dataset"
+        # st.info(f"Exporting: **{label}** ({export_df.shape[0]:,} rows × {export_df.shape[1]} columns)")
+        cleaned = st.session_state.get("cleaned_df")
+
+         # fallback if cleaned is None
+        if cleaned is None:
+            export_df = df
+            label = "Original Dataset"
+        else:
+            export_df = cleaned
+            label = "Cleaned Dataset"
+
+        st.info(
+            f"Exporting: **{label}** "
+            f"({export_df.shape[0]:,} rows × {export_df.shape[1]} columns)"
+        )
+        
 
         c1, c2, c3 = st.columns(3)
 
