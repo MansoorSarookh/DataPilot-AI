@@ -1,6 +1,5 @@
 # DataPilot AI - Requirements
 # Generated: 2026-02-23
-
 # ── Core Framework ──────────────────────────────────────────────
 streamlit>=1.31.0
 
@@ -11,7 +10,7 @@ pyarrow>=14.0.0
 chardet>=5.2.0
 
 # ── Visualization ────────────────────────────────────────────────
-plotly>=5.18.0
+plotly==5.20.0
 kaleido>=0.2.1
 
 # ── Statistical Analysis ─────────────────────────────────────────
