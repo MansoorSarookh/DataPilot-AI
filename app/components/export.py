@@ -104,7 +104,7 @@ def create_export_panel(fig: go.Figure, chart_name: str, key_prefix: str = '') -
                 st.button('🎨 SVG', disabled=True, key=f'{key_prefix}_svg_d', use_container_width=True)
 
         with cols[3]:
-            html_str = fig.to_html(include_plotlyjs='cdn', full_html=True)
+            html_str = fig.to_html(include_plotlyjs=False, full_html=True)
             st.download_button(
                 label='🌐 HTML',
                 data=html_str.encode('utf-8'),
