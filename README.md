@@ -179,6 +179,9 @@ This project is licensed under the MIT License — feel free to use and modify w
 **Mansoor Sarookh**  
 Computer Science Student & AI Developer  
 
-- GitHub: GitHub.com/MansoorSarookh  
-- LinkedIn: (add your profile link)
+- GitHub: https://GitHub.com/MansoorSarookh  
+- LinkedIn: https://linkedln.com/in/mansoorsarookh
+- YouTube: https://youtube.com/Mansoor-Sarookh
+- Instagram: https://instagram.com/mansoorsarookh
+  
 
