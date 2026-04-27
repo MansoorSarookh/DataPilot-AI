@@ -1,3 +1,0 @@
-# # Required for tabula-py to extract tables from PDF files
-# it Installs Linux system software (External tools). 
-default-jre-headless
