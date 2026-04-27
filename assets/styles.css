@@ -337,7 +337,7 @@ h3 {
 }
 
 
-/* ✅ FIX: Restore Streamlit Sidebar Toggle */
+/* /* ✅ FIX: Restore Streamlit Sidebar Toggle */
 [data-testid="collapsedControl"] {
     display: flex !important;
     visibility: visible !important;
@@ -351,4 +351,4 @@ section[data-testid="stSidebar"] {
     transform: none !important;
     left: 0 !important;
     margin-left: 0 !important;
-} 
+}  */
