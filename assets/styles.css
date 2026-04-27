@@ -335,4 +335,20 @@ h3 {
 [data-testid="stSlider"] [data-baseweb="slider"] [role="slider"] {
   background: #4f46e5 !important;
 }
- 
+
+
+/* ✅ FIX: Restore Streamlit Sidebar Toggle */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 9999 !important;
+    pointer-events: auto !important;
+}
+
+/* ✅ Ensure sidebar behaves normally */
+section[data-testid="stSidebar"] {
+    transform: none !important;
+    left: 0 !important;
+    margin-left: 0 !important;
+} 
