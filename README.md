@@ -54,7 +54,11 @@ The platform emphasizes **usability, speed, and interpretability**.
 - Data quality observations  
 
 ## 📂 File Support
-- CSV uploads  
+### Tabular Data: 
+- CSV · Excel · TSV · ODS · Parquet · Feather
+### Documents: 
+- PDF (tables) · Word (tables) · HTML tables 
+- CSV, excel,  uploads  
 - Instant processing pipeline  
 
 ## ⚡ User Experience
@@ -152,7 +156,6 @@ DataPilot-AI/
 - 🔜 Advanced ML model recommendations  
 - 🔜 Report export (PDF/HTML)  
 - 🔜 Multi-file dataset support  
-- 🔜 User authentication  
 
 ---
 
@@ -183,5 +186,8 @@ Computer Science Student & AI Developer
 - LinkedIn: https://linkedln.com/in/mansoorsarookh
 - YouTube: https://youtube.com/Mansoor-Sarookh
 - Instagram: https://instagram.com/mansoorsarookh
+- facebook: https://facebook.com/mansoorsarookh
+- x/twitter: https://x.com/mansoorsarookh
+- kaggle: https://kaggle.com/mansoorsarookhh
   
 
